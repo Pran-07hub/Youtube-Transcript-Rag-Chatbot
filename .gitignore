@@ -1,0 +1,19 @@
+# Secrets and API Keys
+.env
+.env.local
+
+# Python compiled cache files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Local Virtual Environments (if you ever move it inside this folder)
+myenv/
+
+venv/
+.venv/
+
+# IDE files
+.vscode/
+.idea/
