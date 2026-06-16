@@ -3,7 +3,7 @@ from youtube_transcript_api import YouTubeTranscriptApi, TranscriptsDisabled
 
 def transcript_find(video_id):
     ytt_api = YouTubeTranscriptApi()
-    return ytt_api.fetch(video_id, languages = ['en', 'hi'])
+    return ytt_api.fetch(video_id, languages = ['en', 'en-US', 'hi'])
 
 def transcript_fetch(video_id):
 
