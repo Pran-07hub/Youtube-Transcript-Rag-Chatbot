@@ -31,7 +31,7 @@ def transcript_fetcher(videos,logger=None):
         logger("Fetching Transcripts...")
     print("Fetching Transcripts...")
     transcripts =[]
-    # transcripts = [[('life is meant to take risks',3,4),('it makes life fun',2,3)], [('photosynthesis is great process for plants',1,4)], [('mitochondria is the powerhouse of cell',7,5)]]
+    
     for video in videos:
         try:
             transcripts.append(transcript_fetch_with_time(video['video_id']))
