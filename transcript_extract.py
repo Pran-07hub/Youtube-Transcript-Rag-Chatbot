@@ -21,5 +21,5 @@ def transcript_fetch_with_time(video_id):
         script.append((snippet.text, snippet.start, snippet.duration))
 
     return script
-    
+
 # print(transcript_fetch_with_time('rGny1YTYSug'))
