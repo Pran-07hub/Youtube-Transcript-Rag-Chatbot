@@ -88,7 +88,7 @@ if mode == "Single Video QA":
             except Exception as e:
 
                 st.error(f"Error: {str(e)}")
-
+              
 # ======================================================
 # MULTI VIDEO MODE
 # ======================================================
