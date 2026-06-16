@@ -16,7 +16,6 @@ from transcript_extract import transcript_fetch
 from dotenv import load_dotenv
 load_dotenv()
 
-
 splitter = RecursiveCharacterTextSplitter(
     chunk_size = 1000,
     chunk_overlap = 200
